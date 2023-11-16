@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mk.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Portfolio</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburg">
+        <div class="logo">Portfolio</div>
+        <div class="hamburg-menu">
+            <div class="hamburg-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menulinks">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="dev">
+        <div class="dev-pic">
+            <img src="./imges/dev-illustration.png" alt="dev-illustration">
+        </div>
+        <div class="section-text">
+            <p class="p1">Hello,I'm</p>
+            <h1 class="title">Pandi Praveen Vamsi</h1>
+            <p class="p2">FrontEnd Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('file:///C:/Users/prave/Desktop/pravi%20resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Conatct Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./imges/linkedin.png" alt="Linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/pandi-praveen-vamsi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'">
+                <img src="./imges/github.png" alt="Github" class="icon" onclick="location.href='https://github.com/praveen-vamsi'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./imges/experience.png" alt="Experience icon">
+                        <h3>Experience</h3>
+                        <p>1+ Year<br>Frontend Web Development</p>
+                        <p>Machine Learning</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./imges/education.png" alt="Education icon">
+                        <h3>Education</h3>
+                        <p>B.Tech Bachelors Degree <br> Artificial Intelligence & <br>Data Science</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Recusandae, hic illum enim neque cumque quasi dolore placeat ipsa saepe,
+                         rem cum veritatis! Unde repellendus 
+                         laudantium hic dolorum esse soluta velit.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./imges/arrow.png" alt="Arrow image" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+
+    <section id="experience">
+        <p class="p1">Explore my</p>
+        <h1 class="title">Experience</h1>
+        <div class="experiece-details-container">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="experience-sub-titl">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./imges/checkmark.png" alt="mark" class="icon">
+                            <div>
+                                <h3>HTML5</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./imges/checkmark.png" alt="mark" class="icon">
+                            <div>
+                                <h3>CSS3</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./imges/checkmark.png" alt="mark" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./imges/checkmark.png" alt="mark" class="icon">
+                            <div>
+                                <h3>Vue Js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./imges/checkmark.png" alt="mark" class="icon">
+                            <div>
+                                <h3>Tailwind CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./imges/checkmark.png" alt="mark" class="icon">
+                            <div>
+                                <h3>MySql</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="experience-sub-titl">Machine Learning</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./imges/checkmark.png" alt="mark" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./imges/checkmark.png" alt="mark" class="icon">
+                            <div>
+                                <h3>R Programming</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./imges/checkmark.png" alt="mark" class="icon">
+                            <div>
+                                <h3>Data Visualization</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./imges/checkmark.png" alt="mark" class="icon">
+                            <div>
+                                <h3>Data Analytics</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./imges/arrow.png" alt="Arrow image" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+
+    <section id="projects">
+        <p class="p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./imges/NetflixIcon2016.jpg" alt="Netflix logo" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-titl">Netflix Clone</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/praveen-vamsi/Netflix-Clone'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://magenta-zabaione-817ce3.netlify.app'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./imges/Codeide.jpg" alt="Netflix logo" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-titl">Online Code Editor</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/praveen-vamsi/Online-Code-Editor'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://elaborate-raindrop-1ee2d7.netlify.app'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./imges/weather.png" alt="Netflix logo" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-titl">Movie Recommendations</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/praveen-vamsi/movie-recommendation'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://dhanesh0729.github.io/Weatheryy/'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./imges/arrow.png" alt="Arrow image" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+
+    <section id="contact">
+        <p class="p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./imges/email.png" alt="mail icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:praveenvamsi024@gmail.com">praveenvamsi024@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./imges/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/pandi-praveen-vamsi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a></p>
+            </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
